@@ -2,16 +2,16 @@
 <widget id="cc.fovea.purchase.demo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>test-phonegap-iap</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Demo for cordova-plugin-purchase.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="hoelt@fovea.cc" href="https://fovea.cc">
+        Fovea Team
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="phonegap-version" value="cli-8.1.1" />
-    <plugin name="cordova-plugin-purchase" source="npm" spec="~8.1.0">
+    <plugin spec="https://github.com/j3k0/cordova-plugin-purchase.git#phonegap-cli-8.1.1">
       <variable name="BILLING_KEY" value="MIIB.....AB" />
     </plugin>
     <platform name="android">
