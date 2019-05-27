@@ -10,8 +10,8 @@
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="19" />
-    <preference name="phonegap-version" value="cli-8.1.1" />
-    <plugin spec="https://github.com/j3k0/cordova-plugin-purchase.git#phonegap-cli-8.1.1">
+    <preference name="phonegap-version" value="cli-8.0.0" />
+    <plugin spec="https://github.com/j3k0/cordova-plugin-purchase.git#phonegap-cli-8.0.0">
       <variable name="BILLING_KEY" value="MIIB.....AB" />
     </plugin>
     <platform name="android">
